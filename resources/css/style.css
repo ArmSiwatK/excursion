@@ -2,17 +2,31 @@ body {
     background-color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 h1 {
     font-weight: normal;
     font-size: 50px;
-    color: white;
 }
 
-.downloadLink {
+#downloadLink {
     color: aquamarine;
     font-size: 16px;
-    text-decoration: underline;
-    font-weight: bolder;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+#description {
+    font-size: 21px;
+    color: gray;
+}
+
+#footLogo {
+    color: gray;
+    text-align: right;
+    font-size: 21px;
 }
